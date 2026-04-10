@@ -1,5 +1,5 @@
 # TheUrbanReview
-📰Esse projeto é sobre um site jornalistico, criado para a repassar informações virtualmente.
+📰Esse projeto é sobre um site jornalistico, criado para repassar informações virtualmente para o público.
 
 ---
 
@@ -36,6 +36,7 @@
 * Melhorar o botão do modo escuro
 * Responsividade em todas as paginas
 * Atualização no visual da pagina
+* Login para acessar os comentarios do site
 
 ---
 
@@ -47,6 +48,6 @@
 ---
 
 ## 👨🏻‍👩🏻‍👦🏻‍👦🏻Autores
-* Desenvolvido por Ismael Menezes Kaio César Kaio Nogueira Gustavo Bryan
-* Turma de Tecnologia em Informática para internet (Turno da turma) – Senac DF
+* Desenvolvido por Yasmin Cavalcante/Kaio César/Kaio Nogueira/Gustavo Bryan
+* Turma de Tecnologia em Informática para internet (Vespertino) – Senac DF
 
