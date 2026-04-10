@@ -47,6 +47,6 @@
 ---
 
 ## 👨🏻‍👩🏻‍👦🏻‍👦🏻Autores
-* Desenvolvido por Ismael Menezes Kaio César Kaio Nogueira Gustavo Bryan
+* Desenvolvido por Ismael Menezes-Kaio César-Kaio Nogueira-Gustavo Bryan
 * Turma de Tecnologia em Informática para internet (Turno da turma) – Senac DF
 
