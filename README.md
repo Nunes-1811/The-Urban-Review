@@ -36,6 +36,7 @@
 * Melhorar o botão do modo escuro
 * Responsividade em todas as paginas
 * Atualização no visual da pagina
+* Login para acessar os comentarios do site
 
 ---
 
