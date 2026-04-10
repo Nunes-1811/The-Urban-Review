@@ -1,5 +1,5 @@
 # TheUrbanReview
-📰Esse projeto é sobre um site jornalistico, criado para a repassar informações virtualmente.
+📰Esse projeto é sobre um site jornalistico, criado para repassar informações virtualmente para o público.
 
 ---
 
