@@ -1,0 +1,384 @@
+/*Corpo do Site*/
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #f5f7fa;
+    font-family: 'Roboto', sans-serif;
+    color: #222;
+    margin: 0;
+}
+
+p {
+    margin: 10px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 15px;
+    margin-top: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.info{
+    font-size: 19px;
+}
+a{
+    text-decoration:none;
+    color:rgb(0, 0, 0);
+    border:2px solid rgb(0, 0, 0);
+    border-radius:6px;
+    padding:8px 14px;
+    font-weight:900;
+    letter-spacing:1px;
+    transform:skew(-6deg);
+    display:inline-block;
+    transition:.2s;
+}
+.dropdown {
+    position: relative;
+    width: 150px;
+    margin-left: auto;
+}
+
+h1 {
+   font-family: "BBH Sans Hegarty", sans-serif;
+    font-weight: 300;
+    margin: 250px;
+    text-align: center;
+}
+h2{
+     margin: 10px;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Cabeça do Site */
+header {
+    background: linear-gradient(to bottom, #FBC33C, #E0361C);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2px;
+    align-items: center;
+}
+
+/* Barra de Navegação */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color: #00001A;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Modo escuro */
+.dropdown {
+    position: relative;
+    width: 150px;
+    margin-left: auto;
+}
+
+#modoEscuro {
+    position: absolute;
+    background-color: #f9f9f9;
+    width: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    right: 50px;
+    border: 0;
+    bottom: 30px;
+}
+
+figcaption {
+    font-size: 15px;
+    font-family: "Caprasimo", serif;
+    font-weight: 100;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+:root {
+    --background-color: rgb(255, 255, 255);
+    --color: rgb(28, 28, 29);
+    --background-color-dark: rgb(12, 10, 10);
+    --color-dark: rgb(255, 255, 255);
+}
+
+body.darkmode {
+    background-color: var(--background-color-dark);
+    color: var(--color-dark);
+}
+
+body.darkmode p,
+body.darkmode h2,
+body.darkmode a,
+body.darkmode figcaption {
+    color: var(--color-dark);
+}
+
+.modedark {
+    color: black;
+}
+
+#modoEscuro {
+    padding: 0;
+    font-size: medium;
+    cursor: pointer;
+    color: var(--color);
+    background-color: var(--background-color);
+}
+
+
+
+p.modoEscuro {
+    color: white;
+}
+
+/*Imagem*/
+img {
+    width: 200px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.tema {
+    width: 70px;
+    margin: -10px;
+    border-radius: 0px;
+}
+
+.informacao {
+    width: 500px;
+    border-radius: 15px;
+}
+
+/* Rodapé */
+footer {
+    background: linear-gradient(to bottom, #E0361C, #FBC33C);
+    color: black;
+    text-align: center;
+    padding: 200px;
+    margin-top: 30px;
+}
+.footer {
+    color: #f5f7fa;
+}
+article {
+    padding: 30px;
+    display: flex;
+}
+
+.conteudo {
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    margin-top: 100px;
+}
+
+label {
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 10px;
+
+}
+
+hr {
+    margin: 80px;
+}
+
+.redes {
+    width: 50px;
+}
+
+/*Contato*/
+#contato {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #f8f8f8;
+    border-radius: 15px;
+}
+
+.form-contato {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-contato button {
+    background-color: #E0361C;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 10px;
+}
+
+.form-contato button:hover {
+    background-color: #FBC33C;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.butao {
+    margin: 10px;
+    align-items: center;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+.menu-mob {
+    display: none;
+}
+.menu-desk {
+ 
+     display: block;
+}
+
+@media screen and (max-width: 768px) {   
+    #modoEscuro {
+        margin: -10px;
+        border-radius: 0px;
+        display: block;
+        background-color: transparent;
+        border: none;
+        position: unset;
+        width: 50px;
+        box-shadow: none;
+    }
+    .tema{
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+        box-shadow: none;
+        background: none;
+    } 
+    header{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;        
+        align-items: center;
+        justify-content: space-around;
+    }
+    header img {
+        width: auto;
+        height: 75px;
+    }
+    header .menu-mob img{
+        width: 50px;
+        height: 50px;
+    }
+    .menu {
+        flex-direction: column;
+    }
+    header nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+    .menu-desk {
+        display: none;
+    }
+    .menu-mob {
+        display: block;
+        margin: 0;
+        width: 50%;
+    }
+    .dropdown {
+        position: relative;
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 130px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        padding: 12px 16px;
+    }
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    .noticia {
+        max-width: 100%;
+        flex-direction: column;
+    }
+    body{
+        padding: 0;
+    }
+    .noticia img {
+        width: 100%;
+    }
+    img {
+        width: 100%;
+        height: auto;
+    }
+    main{
+        margin: 150px 0;
+    }
+    .container h1 {
+        width: 100%;
+        margin: 0;
+    }
+    article {
+        padding: 0;
+    }
+    figure{
+        margin: 0;
+    } 
+
+    footer {
+        padding: 0;
+        padding-top: 10px;
+    }
+    footer img:not(.redes){
+        height: 75px;
+        width: auto;
+    }
+    figcaption{
+        font-size: 15px;
+    }
+    h2{
+        padding: 20px;
+    }
+    nav a{
+        color: #00001A;
+    }
+}
