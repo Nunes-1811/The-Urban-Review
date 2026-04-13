@@ -335,7 +335,7 @@ Centraliza o ícone dentro.
 Remove a posição absoluta usada no desktop (position: unset).
 Torna o fundo transparente.*/
     .tema{
-        width: 40px;
+        width: 60px;
         height: 40px;
         border-radius: 100%;
     } /*Provavelmente o ícone de tema (sol/lua) — reduzido e circular no mobile.*/
@@ -372,6 +372,7 @@ Garante que logotipo e menu fiquem bem distribuídos em telas pequenas.*/
 O menu desktop é escondido e o menu mobile é exibido.*/
     .dropdown {
         position: relative;
+        width: 100px;
     }
     .dropdown-content {
         display: none;

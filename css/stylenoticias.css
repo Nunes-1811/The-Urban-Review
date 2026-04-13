@@ -318,7 +318,7 @@ footer {
         color: rgb(0 0 0);
     }
     .tema {
-        width: 40px;
+        width: 60px;
         height: 40px;
         border-radius: 100%;
     }
@@ -361,6 +361,7 @@ footer {
 
     .dropdown {
         position: relative;
+        width: 10px;
     }
     
     .dropdown-content {
