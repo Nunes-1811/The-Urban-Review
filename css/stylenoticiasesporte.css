@@ -363,6 +363,16 @@ textarea {
 .menu-desk {
     display: block;
 }
+
+/*MODO ESCURO*/
+.tema {
+    content: url('/img/light.png');
+}
+
+body.darkmode .tema {
+    content: url('/img/dark.png');
+}
+
 @media screen and (max-width: 768px) {
     #modoEscuro {
         margin: -10px;

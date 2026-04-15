@@ -318,6 +318,16 @@ Usa display: flex para centralizar o botão horizontalmente dentro dele.*/
 .menu-desk {
     display: block;
 }
+
+/*MODO ESCURO*/
+.tema {
+    content: url('/img/light.png');
+}
+
+body.darkmode .tema {
+    content: url('/img/dark.png');
+}
+
 /*o modo desktop, o menu de desktop aparece (display: block).
 O menu de celular (menu-mob) fica escondido (display: none).*/
 @media screen and (max-width: 768px)/*Tudo dentro desse bloco só se aplica em telas menores que 768px (smartphones e tablets).*/ {   

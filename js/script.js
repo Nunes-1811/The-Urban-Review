@@ -1,16 +1,19 @@
 /*Botão de troca para o modo escuro*/
 const toggleButton = document.getElementById('modoEscuro');
 const body = document.body;
-const icon = document.querySelector('.darkmode .tema'); // pega apenas um ícone
 
+// carrega estado salvo
+if (localStorage.getItem('darkmode') === 'true') {
+  body.classList.add('darkmode');
+}
 
 toggleButton.addEventListener('click', () => {
-    body.classList.toggle('darkmode');
-     if (body.classList.contains('darkmode')) {
-    icon.src = '/img/dark.png'; // ícone para modo escuro
-  } else {
-    icon.src = '/img/light.png'; // ícone para modo claro
-  }
+  body.classList.toggle('darkmode');
+
+  localStorage.setItem(
+    'darkmode',
+    body.classList.contains('darkmode')
+  );
 });
 
 document.getElementById("comentarioForm").addEventListener("submit", function(event) {
