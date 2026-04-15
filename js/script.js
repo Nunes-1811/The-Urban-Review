@@ -7,9 +7,9 @@ const icon = document.querySelector('.darkmode .tema'); // pega apenas um ícone
 toggleButton.addEventListener('click', () => {
     body.classList.toggle('darkmode');
      if (body.classList.contains('darkmode')) {
-    icon.src = '../img/dark.png'; // ícone para modo escuro
+    icon.src = '/img/dark.png'; // ícone para modo escuro
   } else {
-    icon.src = '../img/light.png'; // ícone para modo claro
+    icon.src = '/img/light.png'; // ícone para modo claro
   }
 });
 
