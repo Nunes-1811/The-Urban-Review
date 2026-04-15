@@ -321,11 +321,11 @@ Usa display: flex para centralizar o botão horizontalmente dentro dele.*/
 
 /*MODO ESCURO*/
 .tema {
-    content: url('/img/light.png');
+    content: url('./img/light.png');
 }
 
 body.darkmode .tema {
-    content: url('/img/dark.png');
+    content: url('./img/dark.png');
 }
 
 /*o modo desktop, o menu de desktop aparece (display: block).
