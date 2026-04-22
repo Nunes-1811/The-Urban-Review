@@ -10,7 +10,7 @@ function atualizarImagem(isDark) {
 
     // Usando caminho absoluto (começando com /)
     // Isso ignora onde o arquivo HTML está e foca na raiz do servidor
-    const pathPrefix = '/img/'; 
+    const pathPrefix = '../src/img/'; 
     
     if (isDark) {
         imgTema.src = pathPrefix + 'dark.png';
