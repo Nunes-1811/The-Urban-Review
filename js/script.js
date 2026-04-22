@@ -2,19 +2,19 @@
 const toggleButton = document.getElementById('modoEscuro');
 const body = document.body;
 
-// carrega estado salvo
-if (localStorage.getItem('darkmode') === 'true') {
-  body.classList.add('darkmode');
-}
-
 toggleButton.addEventListener('click', () => {
   body.classList.toggle('darkmode');
-
+  
   localStorage.setItem(
     'darkmode',
     body.classList.contains('darkmode')
   );
 });
+
+// carrega estado salvo
+if (localStorage.getItem('darkmode') === 'true') {
+  body.classList.add('darkmode');
+}
 
 document.getElementById("comentarioForm").addEventListener("submit", function(event) {
   event.preventDefault(); // impede recarregar a página
