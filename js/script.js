@@ -1,20 +1,37 @@
 /*Botão de troca para o modo escuro*/
+
 const toggleButton = document.getElementById('modoEscuro');
 const body = document.body;
+const imgTema = document.getElementById('imgTema');
 
-toggleButton.addEventListener('click', () => {
-  body.classList.toggle('darkmode');
-  
-  localStorage.setItem(
-    'darkmode',
-    body.classList.contains('darkmode')
-  );
-});
+// Função para descobrir o caminho correto da imagem
+function atualizarImagem(isDark) {
+    if (!imgTema) return;
 
-// carrega estado salvo
-if (localStorage.getItem('darkmode') === 'true') {
-  body.classList.add('darkmode');
+    // Usando caminho absoluto (começando com /)
+    // Isso ignora onde o arquivo HTML está e foca na raiz do servidor
+    const pathPrefix = '/img/'; 
+    
+    if (isDark) {
+        imgTema.src = pathPrefix + 'dark.png';
+    } else {
+        imgTema.src = pathPrefix + 'light.png';
+    }
 }
+
+// 1. Ao carregar a página
+const isDarkSaved = localStorage.getItem('darkmode') === 'true';
+if (isDarkSaved) {
+    body.classList.add('darkmode');
+}
+atualizarImagem(isDarkSaved);
+
+// 2. Evento de clique
+toggleButton.addEventListener('click', () => {
+    const isDark = body.classList.toggle('darkmode');
+    localStorage.setItem('darkmode', isDark);
+    atualizarImagem(isDark);
+});
 
 document.getElementById("comentarioForm").addEventListener("submit", function(event) {
   event.preventDefault(); // impede recarregar a página

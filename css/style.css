@@ -319,13 +319,19 @@ Usa display: flex para centralizar o botão horizontalmente dentro dele.*/
     display: block;
 }
 
-/*MODO ESCURO*/
-.tema {
-    content: url('./img/light.png');
-}
+/* Estado padrão: esconde a lua, mostra o sol */
+.lua { display: none; }
+.sol { display: block; }
 
-body.darkmode .tema {
-    content: url('./img/dark.png');
+/* Estado Darkmode: esconde o sol, mostra a lua */
+body.darkmode .sol { display: none; }
+body.darkmode .lua { display: none; } /* Caso use apenas uma classe, veja abaixo */
+
+/* Ajuste no botão para não quebrar a imagem */
+#modoEscuro img {
+    width: 65px; /* ou o tamanho que preferir */
+    height: auto;
+    pointer-events: none; /* evita clicar na imagem em vez do botão */
 }
 
 /*o modo desktop, o menu de desktop aparece (display: block).
