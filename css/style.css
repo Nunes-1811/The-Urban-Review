@@ -1,3 +1,19 @@
+@font-face {
+  font-family: 'UrbanJungle';
+  src: url('../src/fonts/UrbanJungle.otf');
+}
+
+@font-face {
+    font-family: 'UrbanGraffite';
+    src: url('../src/fonts/UrbanGraffite.ttf');
+}
+
+.bangers-regular {
+  font-family: "Bangers", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -24,13 +40,17 @@ p {
     justify-content: space-around;
     color: #000000;
 }
+.veja{
+    font-family: "Bangers";
+    font-size: 30px;
+}
 /*Dá espaçamento vertical grande, usa uma fonte condensada e aplica flexbox para alinhar o conteúdo dentro do parágrafo*/
 h1 {
-    font-family: "BBH Sans Hegarty", sans-serif;
+    font-family: "UrbanGraffite", sans-serif;
     font-weight: 300;
     margin: 150px;
-    padding: 39px;
     text-align: center;
+    font-size: 100px;
 }
 /*h1 usa uma fonte customizada, é centralizado e tem margens amplas (o que cria bastante espaço acima/abaixo).*/
 h2{
@@ -39,7 +59,6 @@ h2{
 /*h2 tem margens pequenas.*/
 .container {
     margin: 0 auto;
-    padding: 20px;
     width: 100%;
 }
 /*Centraliza o conteúdo e limita sua largura máxima — comum em layouts responsivos.*/
@@ -98,6 +117,10 @@ nav ul {
     color: #00001A;
 }
 /**Remove marcadores da lista e organiza os links em linha, centralizados com espaçamento entre eles.*/
+li{
+    font-family: "Knewave";
+    font-weight: normal;
+}
 nav a {
     color: rgb(255, 255, 255);
     text-decoration: none;
@@ -274,6 +297,7 @@ padding adiciona respiro interno.*/
     cursor: pointer;
     transition: 0.3s;
     margin: 10px;
+    width: 100%;;
 }
 /*Define o botão de envio do formulário:
 Fundo azul, texto branco.
@@ -427,10 +451,12 @@ Posição absoluta faz o submenu se sobrepor ao conteúdo.*/
     .container h1 {
         width: 100%;
         margin: 0;
-        box-sizing: border-box
+        box-sizing: border-box;
+        font-size: 60px;
     }
     #contato{
         padding: 75px;
+        width: 200px;
     }
     article {
         padding: 0;
