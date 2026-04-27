@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'UrbanJungle';
-  src: url('../src/fonts/UrbanJungle.otf');
+  src: url('/src/fonts/UrbanJungle.otf');
 }
 
 @font-face {
     font-family: 'UrbanGraffite';
-    src: url('../src/fonts/UrbanGraffite.ttf');
+    src: url('/src/fonts/UrbanGraffite.ttf');
 }
 
 .bangers-regular {
