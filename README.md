@@ -48,6 +48,6 @@
 ---
 
 ## 👨🏻‍👩🏻‍👦🏻‍👦🏻Autores
-* Desenvolvido por Yasmin Cavalcante/Kaio César/Kaio Nogueira/Gustavo Bryan
+* Desenvolvido por Yasmin Cavalcante/Kaio César/Kaio Nogueira/Gustavo Bryan/Ismael Menezes
 * Turma de Tecnologia em Informática para internet (Vespertino) – Senac DF
 
