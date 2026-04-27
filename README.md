@@ -4,7 +4,7 @@
 ---
 
 ## 📸Captura de Tela
-![Prévia do Projeto](src="/src/img/CapturaDeTela.png")
+![Prévia do Projeto](src="/src/img/CapturaDeTela.png)
 
 ---
 
